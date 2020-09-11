@@ -1,7 +1,5 @@
 {
-  "name": "ionic-spotify",
-  "integrations": {
-    "capacitor": {}
-  },
+  "name": "movieapp",
+  "integrations": {},
   "type": "angular"
 }
