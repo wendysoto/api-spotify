@@ -8,8 +8,8 @@ import {Route, Router}from "@angular/router";
   styleUrls: ['./login.page.scss'],
 })
 export class LoginPage implements OnInit {
-  email='string';
-  password='string';
+  email='';
+  password='';
   
 
   constructor(private authService:AuthService, public router:Router) { }
@@ -17,9 +17,15 @@ export class LoginPage implements OnInit {
   ngOnInit() {
   }
 
+  //METODO DE INVIO LOGIN 
   onSubmitLogin(){
     this.authService.login(this.email, this.password).then(res=> {
-      this.router.navigate(['/movies']);
+      if(this.email=="wendy@gmail.com"){
+        this.router.navigate(['/administrador'])
+      }
+      else{
+        this.router.navigate(['/movies']);
+      }      
 
     }).catch(err=>alert('Usuario o contraseña incorrecto'))
   

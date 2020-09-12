@@ -1,51 +1,46 @@
-<ion-header>
-  <ion-toolbar>
+<ion-header >
+  <ion-toolbar color="success">
     <ion-title>login</ion-title>
+    
   </ion-toolbar>
 </ion-header>
 
 <ion-content padding >
-  <p>INICIO DE SESION</p>
-
-
-  <ion-input type="text"[(ngModel)]="email" placeholder="email"></ion-input>
-  <ion-input type="password"[(ngModel)]="password"  placeholder="password"></ion-input>
-  <br>
-  <ion-button (click)="onSubmitLogin()" color="success" expand="full" >INGRESAR </ion-button>
   
-  <ion-button  color="success" expand="full" routerLink="/register"> REGISTRARSE </ion-button>
+    <ion-col size-sm=1>
 
-
-  <!--<ion-grid style="height:100%;">
-    <ion-row justify-content-center aling-item-center style="height: 100%;">
-      <ion-col size=12 size-sm=10 offset-sm=4 size-md=8 offset-md=2 size-lg=6 offset-xl=4>
+    </ion-col>
+    <ion-col size-sm=6>
+      <img style="height: 20%;" src="/assets/icon/iniciar-sesion.png/" >
+      
         <ion-card>
-        <ion-card-header>
-        <ion-card-tittle>User Login</ion-card-tittle>
-        </ion-card-header>
-        </ion-card>
-        <ion-card-content>
-          <ion-item lines="none">
-            <ion-labelposition="stack">
-              Email
-            </ion-label>
-            <ion-input placeholder="ingrese su correo"></ion-input>
-          </ion-item>
+          <ion-item>
+            <ion-label position="floating">Email</ion-label>
+            <ion-input type="text"[(ngModel)]="email"></ion-input>
+          </ion-item> 
+            
+        </ion-card>    
+      
+      
+      <ion-card>        
+          <ion-item>
+            <ion-label position="floating">Password</ion-label>
+            <ion-input type="password"[(ngModel)]="password" ></ion-input>
+          </ion-item>        
+      </ion-card>
+    
+     
+      <ion-button (click)="onSubmitLogin()" color="success" expand="full" >INGRESAR </ion-button>
+      
+      <ion-button  color="success" expand="full" routerLink="/register"> REGISTRARSE </ion-button>
+    
+    
+    </ion-col>
+    <ion-col size-sm=1>
+      
+    </ion-col>
+  
+  
 
-          <ion-item lines="none">
-            <ion-labelposition="stack">
-              password
-            </ion-label>
-            <ion-input placeholder="ingrese su contraseña"></ion-input>
-          </ion-item>
-          <ion-button color="prymary" display ="block">INGRESAR</ion-button>
-          
-        </ion-card-content>
-
-        
-
-      </ion-col>
-    </ion-row>
-  </ion-grid>-->
  
 </ion-content>

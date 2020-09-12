@@ -41,7 +41,7 @@ export class AuthService {
             telefono:telefono,
             uid:uid
           })
-         console.log(res.user.uid)//UID util para gurdar info sobre usuario
+         //console.log(res.user.uid)//UID util para gurdar info sobre usuario
           resolve(res)
         }).catch(err=>reject(err))
 

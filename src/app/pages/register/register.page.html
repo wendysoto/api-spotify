@@ -1,5 +1,5 @@
 <ion-header>
-  <ion-toolbar>
+  <ion-toolbar color="success">
     <ion-title>register</ion-title>
     <ion-buttons slot="start">
       <ion-back-button defaultHref="/"></ion-back-button>
@@ -10,14 +10,35 @@
 
 
 <ion-content padding>
-  <p>Registro de usuario</p>
-  <ion-input [(ngModel)]="nombre" type="text" placeholder="nombre"></ion-input>
-  <ion-input  [(ngModel)]="apellido"type="text" placeholder="apellido"></ion-input>
-  <ion-input [(ngModel)]="email" type="text" placeholder="email"></ion-input>
-  <ion-input  [(ngModel)]="telefono"type="text" placeholder="teléfono"></ion-input>
-  <ion-input [(ngModel)]="password" type="password" placeholder="password"></ion-input>
+  
+    
+      <h4>Nueva Cuenta</h4>
+  <img style="height: 10%;" src="/assets/icon/anadir.png/" >
 
-  <br>
+  
+  
+  
+  <ion-card>    
+      <ion-input [(ngModel)]="nombre" type="text" placeholder="nombre"></ion-input>    
+  </ion-card>
+  
+  <ion-card>   
+      <ion-input  [(ngModel)]="apellido"type="text" placeholder="apellido"></ion-input>       
+  </ion-card>
+
+  <ion-card>   
+      <ion-input [(ngModel)]="email" type="text" placeholder="email"></ion-input>       
+  </ion-card>
+  
+  <ion-card>    
+      <ion-input  [(ngModel)]="telefono"type="text" placeholder="teléfono"></ion-input>       
+  </ion-card>
+  
+  <ion-card>
+  <ion-input [(ngModel)]="password" type="password" placeholder="password"></ion-input>      
+  </ion-card>
+  
+ 
   <ion-button (click)="onSubmitRegister()" color="success" expand="full" >GUARDAR </ion-button>
 
 </ion-content>
