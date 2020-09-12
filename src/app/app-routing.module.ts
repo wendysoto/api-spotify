@@ -21,9 +21,14 @@ const routes: Routes = [
     path: 'register',
     loadChildren: () => import('./pages/register/register.module').then( m => m.RegisterPageModule)
   },
+  
   {
     path: 'movie/:id',
     loadChildren: () => import('./pages/movie-details/movie-details.module').then( m => m.MovieDetailsPageModule)
+  },
+  {
+    path: 'administrador',
+    loadChildren: () => import('./administrador/administrador.module').then( m => m.AdministradorPageModule)
   },
 ];
 

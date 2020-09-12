@@ -4,14 +4,15 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content >
+<ion-content padding >
   <p>INICIO DE SESION</p>
 
 
-  <ion-input placeholder="email"></ion-input>
-  <ion-input placeholder="password"></ion-input>
+  <ion-input type="text"[(ngModel)]="email" placeholder="email"></ion-input>
+  <ion-input type="password"[(ngModel)]="password"  placeholder="password"></ion-input>
   <br>
-  <ion-button  color="success" expand="full" routerLink="/movies">INGRESAR </ion-button>
+  <ion-button (click)="onSubmitLogin()" color="success" expand="full" >INGRESAR </ion-button>
+  
   <ion-button  color="success" expand="full" routerLink="/register"> REGISTRARSE </ion-button>
 
 

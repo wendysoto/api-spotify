@@ -8,13 +8,16 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
-  <p>Registro de usuario</p>
-  <ion-input placeholder="nombre"></ion-input>
-  <ion-input placeholder="email"></ion-input>
 
-  <ion-input placeholder="password"></ion-input>
+<ion-content padding>
+  <p>Registro de usuario</p>
+  <ion-input [(ngModel)]="nombre" type="text" placeholder="nombre"></ion-input>
+  <ion-input  [(ngModel)]="apellido"type="text" placeholder="apellido"></ion-input>
+  <ion-input [(ngModel)]="email" type="text" placeholder="email"></ion-input>
+  <ion-input  [(ngModel)]="telefono"type="text" placeholder="teléfono"></ion-input>
+  <ion-input [(ngModel)]="password" type="password" placeholder="password"></ion-input>
+
   <br>
-  <ion-button  color="success" expand="full" routerLink="/">GUARDAR </ion-button>
+  <ion-button (click)="onSubmitRegister()" color="success" expand="full" >GUARDAR </ion-button>
 
 </ion-content>
