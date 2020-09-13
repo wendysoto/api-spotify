@@ -4,6 +4,7 @@ import {AngularFireAuth} from "@angular/fire/auth";
 
 //importar firestore para guardar en la base
 import {AngularFirestore} from '@angular/fire/firestore';
+import { Router } from '@angular/router';
 
 
 
@@ -12,7 +13,7 @@ import {AngularFirestore} from '@angular/fire/firestore';
 })
 export class AuthService {
 
-  constructor(private AFauth:AngularFireAuth,private db:AngularFirestore) { }
+  constructor(private AFauth:AngularFireAuth,private db:AngularFirestore, private router:Router) { }
 //  constructor(private AFauth:AngularFireAuth, private db:AngularFirestore)
 
   //metodo de autenticacion
@@ -48,5 +49,11 @@ export class AuthService {
       })
       
 
+    }
+    //METODO CERRAR SESION
+    logout(){
+      this.AFauth.auth.signOut().then(() =>{
+        this.router.navigate(['./login']);
+      })
     }
 }

@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
+import {AuthGuard} from "./guard/auth.guard";
+import {LogoutGuard} from "./guard/logout.guard";
 
 const routes: Routes = [
   
@@ -10,12 +12,12 @@ const routes: Routes = [
   },
   {
     path: 'movies',
-    loadChildren: () => import('./pages/movies/movies.module').then( m => m.MoviesPageModule)
+    loadChildren: () => import('./pages/movies/movies.module').then( m => m.MoviesPageModule), canActivate:[AuthGuard]
   },
   
   {
     path: 'login',
-    loadChildren: () => import('./pages/login/login.module').then( m => m.LoginPageModule)
+    loadChildren: () => import('./pages/login/login.module').then( m => m.LoginPageModule), canActivate:[LogoutGuard]
   },
   {
     path: 'register',
@@ -28,8 +30,9 @@ const routes: Routes = [
   },
   {
     path: 'administrador',
-    loadChildren: () => import('./administrador/administrador.module').then( m => m.AdministradorPageModule)
+    loadChildren: () => import('./administrador/administrador.module').then( m => m.AdministradorPageModule), canActivate:[AuthGuard]
   },
+
 ];
 
 @NgModule({
