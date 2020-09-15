@@ -8,21 +8,21 @@ export enum SearchType{
   all='',
   movie='movie',
   series='series',
-  episode='episode'
+  episode='episode',
+  id='any'
 }
 
 @Injectable({
   providedIn: 'root'
 })
 export class MovieService {
-  url = ' http://www.omdbapi.com/';
+  url = 'http://www.omdbapi.com/';
   apiKey = '6db4eeb6'; 
  
   constructor(private http: HttpClient) { }
 
   searchData(title: string, type: SearchType): Observable<any> {
-    return this.http.get(`${this.url}?s=${encodeURI(title)}&type=${type}&apikey=${this.apiKey}`)
-    .pipe(map(results => results['Search'])
+    return this.http.get(`${this.url}?s=${encodeURI(title)}&type=${type}&apikey=${this.apiKey}`).pipe(map(results => results['Search'])
     );
   }
   

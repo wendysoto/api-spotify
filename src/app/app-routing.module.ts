@@ -19,15 +19,14 @@ const routes: Routes = [
     path: 'login',
     loadChildren: () => import('./pages/login/login.module').then( m => m.LoginPageModule), canActivate:[LogoutGuard]
   },
+
   {
     path: 'register',
     loadChildren: () => import('./pages/register/register.module').then( m => m.RegisterPageModule)
-  },
+  },  
   
-  {
-    path: 'movie/:id',
-    loadChildren: () => import('./pages/movie-details/movie-details.module').then( m => m.MovieDetailsPageModule)
-  },
+
+  { path: 'movies/:id', loadChildren: './pages/movie-details/movie-details.module#MovieDetailsPageModule' },
   {
     path: 'administrador',
     loadChildren: () => import('./administrador/administrador.module').then( m => m.AdministradorPageModule), canActivate:[AuthGuard]

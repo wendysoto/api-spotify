@@ -11,7 +11,7 @@ import { AuthService } from 'src/app/services/auth.service';
 export class MoviesPage implements OnInit {
   results:Observable<any>;
   searchTerm:string="";
-  type:SearchType=SearchType.all;
+  type: SearchType=SearchType.all;
 
   constructor(private movieService: MovieService, public authservice:AuthService) { }
 
@@ -22,6 +22,7 @@ export class MoviesPage implements OnInit {
     this.results = this.movieService.searchData(this.searchTerm, this.type);
     console.log('resultado',this.results);
   }
+  
   //metodo para cerrar sesión
 
   Onlogout(){
