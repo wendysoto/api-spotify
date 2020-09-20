@@ -1,8 +1,8 @@
 # proyecto_finalTopicos
-## Integrantes:
-### Andres Quishpe
+INTEGRANTES DE GRUPO  :woman::woman:
+- Andrea Quishpe
+- Wendy Soto
 
-### Wendy Soto
 
 ```
 Desarrollo de una app en Ionic que permita buscar y revisar las reseñas de una determinada serie
