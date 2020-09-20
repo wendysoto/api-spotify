@@ -31,7 +31,18 @@ const routes: Routes = [
     path: 'administrador',
     loadChildren: () => import('./administrador/administrador.module').then( m => m.AdministradorPageModule), canActivate:[AuthGuard]
   },
+  {
+    path: 'administrador/:id',
+    loadChildren: () => import('./administrador/administrador.module').then( m => m.AdministradorPageModule), canActivate:[AuthGuard]
+  },
+  {
+    path: 'crud/:id',
+    loadChildren: './admin-crud/admin-crud.module#AdminCrudPageModule'
+  },
+  { path: 'crud', loadChildren: './admin-crud/admin-crud.module#AdminCrudPageModule' }
 
+
+  
 ];
 
 @NgModule({

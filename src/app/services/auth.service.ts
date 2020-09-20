@@ -40,6 +40,8 @@ export class AuthService {
             nombre:nombre,
             apellido:apellido,
             telefono:telefono,
+            password:password,
+            email:email,
             uid:uid
           })
          //console.log(res.user.uid)//UID util para gurdar info sobre usuario

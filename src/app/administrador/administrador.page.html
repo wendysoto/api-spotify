@@ -1,14 +1,23 @@
 <ion-header>
   <ion-toolbar color="success">
-    <ion-title>Administrador</ion-title>
-    <!--<ion-buttons slot="start">
-      <ion-back-button defaultHref="/"></ion-back-button>
-    
-      </ion-buttons>-->
+   
+    <ion-row>
+      <ion-col size=6>
+        <ion-title>Administrador</ion-title>
+  
+
+      </ion-col>
+      <ion-col size=4>
+       
+             
+      </ion-col >
+
+      <ion-col size=2>
+        <ion-button style="background-color: darkcyan;"  (click)="Onlogout()"><ion-icon name="exit-outline"></ion-icon></ion-button> 
+      </ion-col>
+    </ion-row> 
       
       
-      <ion-button (click)="Onlogout()"><ion-icon name="exit-outline"></ion-icon></ion-button> 
-    
   </ion-toolbar>  
 </ion-header>
 
@@ -21,11 +30,7 @@
       </ion-card-content>     
     </ion-card>
 
-    <ion-card style="background-color: #42d77d; color: black;">
-      <ion-card-content>
-        Agregar  usuarios.
-      </ion-card-content>    
-    </ion-card>
+    <!--
 
     <ion-card style=" background-color: #ffca22; color: black;">
       <ion-card-content >
@@ -37,18 +42,48 @@
       <ion-card-content >
         Eliminar  usuarios.
       </ion-card-content>    
-    </ion-card>
+    </ion-card>-->
+
+    <!--ADMIN-->
+
+      <ion-item-sliding *ngFor="let todo of usuarios">
+        <ion-item lines="inset" button [routerLink]="['/crud', todo.id]">
+          <ion-avatar slot="start">
+            <img src="https://www.flaticon.es/svg/static/icons/svg/848/848006.svg">
+          </ion-avatar>
+              
+           
+          <ion-label>
+            <h2>{{ todo.nombre}}</h2>
+            <h3>{{ todo.apellido}}</h3>
+            
+          </ion-label>   
+        
+         <ion-icon name="create-outline"></ion-icon>
+         
+        </ion-item>
+   
+        <ion-item-options side="end">
+          <ion-item-option (click)="remove(item)" color="secondary">
+            Check
+            <ion-icon name="checkmark" slot="end"></ion-icon>
+          </ion-item-option>
+        </ion-item-options>
+      </ion-item-sliding>
+ 
+
+    <!--boton-->
+    <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+      <ion-fab-button routerLink="/crud" routerDirection="forward">
+        <ion-icon name="add"></ion-icon>
+      </ion-fab-button>
+    </ion-fab>
+
 
 </ion-content>
 
-<ion-footer pdding>
- 
-  <ion-button>
-    <ion-icon name="person-add-outline"></ion-icon>
-  </ion-button>
-  
-  <ion-button>
-    <ion-icon name="create-outline"></ion-icon>
-  </ion-button>
-
+<ion-footer padding>
+  <ion-toolbar color="success">
+ <ion-label>Tópicos Especiales 2020-A</ion-label>
+</ion-toolbar>
 </ion-footer>
