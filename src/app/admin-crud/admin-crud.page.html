@@ -21,7 +21,7 @@
 
 
       <ion-item *ngIf="todo">
-          <ion-input required type="number" placeholder="teléfono" [(ngModel)]="todo.telefono"></ion-input>     
+          <ion-input required type="text" placeholder="teléfono" [(ngModel)]="todo.telefono"></ion-input>     
       </ion-item> 
     
       <ion-item *ngIf="todo">      
@@ -29,7 +29,7 @@
       </ion-item> 
 
       <ion-item *ngIf="todo">        
-          <ion-input required type="text" placeholder="password" [(ngModel)]="todo.password"></ion-input>    
+          <ion-input required type="password" placeholder="password" [(ngModel)]="todo.password"></ion-input>    
       </ion-item>
   
 
@@ -46,6 +46,6 @@
 </ion-content>
 <ion-footer padding>
   <ion-toolbar color="success">
- <ion-label>Tópicos Especiales 2020-A</ion-label>
+ <ion-label padding>   Tópicos Especiales 2020-A</ion-label>
 </ion-toolbar>
 </ion-footer>

@@ -44,9 +44,9 @@ export class AdminCrudPage implements OnInit {
 
   async saveUsers(){
     const loading=await this.loadingController.create({
-      //message:'Guardando.....'
+      message:'Guardando.....'
     });
-    await loading.present();
+    
     if(this.uid){
       //Update
       this.adminService.updateUser(this.todo, this.uid).then(()=>{
