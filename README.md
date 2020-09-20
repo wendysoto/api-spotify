@@ -28,12 +28,15 @@ ionic g service services/nombreservicio
 
 ## Interfaces
 - Usuario
-| **login** :speech_balloon: | **register** :busts_in_silhouette: | **movies** :heavy_check_mark:|**movies details** :bust_in_silhouette:|
+
+| **login** :speech_balloon: | **register** :busts_in_silhouette: | **movies** :clapper:|**movies details** :bust_in_silhouette:|
 | ------------- | ------------- | ------------- | ------------- |
 |![myimage-alt-tag](https://github.com/wendysoto/proyecto_finalTopicos/blob/master/images/login.JPG) |![myimage-alt-tag](https://github.com/wendysoto/proyecto_finalTopicos/blob/master/images/register.JPG)  |![myimage-alt-tag](https://github.com/wendysoto/proyecto_finalTopicos/blob/master/images/movies.JPG)  |![myimage-alt-tag](https://github.com/wendysoto/proyecto_finalTopicos/blob/master/images/movie_info.JPG) |
+
 - Administrador
+
 | **Users** :speech_balloon: | **Edit User** :busts_in_silhouette: | **New User** :heavy_check_mark:|
-| ------------- | ------------- | ------------- | ------------- |
+| ------------- | ------------- | ------------- |
 |![myimage-alt-tag](https://github.com/wendysoto/proyecto_finalTopicos/blob/master/images/users.JPG) |![myimage-alt-tag](https://github.com/wendysoto/proyecto_finalTopicos/blob/master/images/edit_user.JPG)  |![myimage-alt-tag](https://github.com/wendysoto/proyecto_finalTopicos/blob/master/images/new_user.JPG)  |
 
 ## Video en Yotube:clapper:
