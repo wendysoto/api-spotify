@@ -1,4 +1,6 @@
-# proyecto_finalTopicos
+
+#  Movie App
+## Proyecto final de Tópicos Especiales
 INTEGRANTES DE GRUPO  :woman::woman:
 - Andrea Quishpe
 - Wendy Soto
