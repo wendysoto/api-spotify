@@ -41,7 +41,7 @@ ionic g service services/nombreservicio
 | ------------- | ------------- | ------------- |
 |![myimage-alt-tag](https://github.com/wendysoto/proyecto_finalTopicos/blob/master/images/users.JPG) |![myimage-alt-tag](https://github.com/wendysoto/proyecto_finalTopicos/blob/master/images/edit_user.JPG)  |![myimage-alt-tag](https://github.com/wendysoto/proyecto_finalTopicos/blob/master/images/new_user.JPG)  |
 
-## Video en Yotube:clapper:
+## Video en Yotube
 
 
 
