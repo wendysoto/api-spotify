@@ -10,16 +10,25 @@ o película mediante el consumo de API.
 ```
 
 ### Comandos
+```
 - Instalar ionic 
-```
 npm install -g @ionic/cli
-```
 - Ejecutar Ionnic
-```ionic serve
+ionic serve
 ionic serve -l 
+- Generar nueva página
+ionic generate page nombrePage 
+- Instalar Córdova geo
+ionic cordova plugin add cordova-plugin-geolocation
+- Crear el servicio
+ionic g service services/nombreservicio
+
 ```
--Generar nueva página
-```ionic serve
-ionic generate page 'nombrePage' 
-```
+## Funcionalidad del Proyecto :pencil2:
+
+## Interfaces
+
+## Video en Yotube:clapper:
+
+
 
