@@ -5,8 +5,8 @@
 ### Wendy Soto
 
 ```
-Desarrollo de una app en Ionic que permita buscar y revisar las reseÒas de una determinada serie
-o pelÌcula mediante el consumo de API.
+Desarrollo de una app en Ionic que permita buscar y revisar las rese√±as de una determinada serie
+o pel√≠cula mediante el consumo de API.
 ```
 
 ### Comandos
@@ -16,9 +16,9 @@ npm install -g @ionic/cli
 - Ejecutar Ionnic
 ionic serve
 ionic serve -l 
-- Generar nueva p·gina
+- Generar nueva p√°gina
 ionic generate page nombrePage 
-- Instalar CÛrdova geo
+- Instalar C√≥rdova geo
 ionic cordova plugin add cordova-plugin-geolocation
 - Crear el servicio
 ionic g service services/nombreservicio
@@ -27,6 +27,14 @@ ionic g service services/nombreservicio
 ## Funcionalidad del Proyecto :pencil2:
 
 ## Interfaces
+- Usuario
+| **login** :speech_balloon: | **register** :busts_in_silhouette: | **movies** :heavy_check_mark:|**movies details** :bust_in_silhouette:|
+| ------------- | ------------- | ------------- | ------------- |
+|![myimage-alt-tag](https://github.com/wendysoto/proyecto_finalTopicos/blob/master/images/login.JPG) |![myimage-alt-tag](https://github.com/wendysoto/proyecto_finalTopicos/blob/master/images/register.JPG)  |![myimage-alt-tag](https://github.com/wendysoto/proyecto_finalTopicos/blob/master/images/movies.JPG)  |![myimage-alt-tag](https://github.com/wendysoto/proyecto_finalTopicos/blob/master/images/movie_info.JPG) |
+- Administrador
+| **Users** :speech_balloon: | **Edit User** :busts_in_silhouette: | **New User** :heavy_check_mark:|
+| ------------- | ------------- | ------------- | ------------- |
+|![myimage-alt-tag](https://github.com/wendysoto/proyecto_finalTopicos/blob/master/images/users.JPG) |![myimage-alt-tag](https://github.com/wendysoto/proyecto_finalTopicos/blob/master/images/edit_user.JPG)  |![myimage-alt-tag](https://github.com/wendysoto/proyecto_finalTopicos/blob/master/images/new_user.JPG)  |
 
 ## Video en Yotube:clapper:
 
