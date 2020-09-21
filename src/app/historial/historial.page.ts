@@ -15,9 +15,11 @@ export class HistorialPage implements OnInit {
   constructor(private historialService:HistorialService) { }
 
   ngOnInit() {
-
+    
     this.historialService.getHistoriales().subscribe(res=>this.historiales=res);
-     //console.log('historial', res)
+    // console.log('historial', res)
+   
+    
       
   }
 

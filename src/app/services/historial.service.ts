@@ -1,15 +1,17 @@
 import { Injectable } from '@angular/core';
 import { AngularFirestore, AngularFirestoreCollection } from 'angularfire2/firestore';
 import { Observable } from 'rxjs';
+import { MergeMapSubscriber } from 'rxjs/internal/operators/mergeMap';
 import { map } from 'rxjs/operators';
 import { historialI } from '../models/task.interface';
-
+import { historialP } from '../models/task.interface';
 @Injectable({
   providedIn: 'root'
 })
 export class HistorialService {
 
   private historialCollection: AngularFirestoreCollection<historialI>;
+
   private historiales: Observable<historialI[]>;
 
   constructor( db:AngularFirestore,) { 

@@ -63,10 +63,7 @@ export class MovieDetailsPage implements OnInit {
       this.uid = user.uid;
       this.email = user.email;
       console.log('id usuario' + this.uid);
-      console.log('email' + this.email);
-      //this.historialService.addHistorial(this.histo)
-
-
+      console.log('email' + this.email);      
 
     // Get the ID that was passed with the URL
     let id = this.activatedRoute.snapshot.paramMap.get('id');
@@ -74,10 +71,9 @@ export class MovieDetailsPage implements OnInit {
     // Get the information from the API
     this.movieService.getDetails(id).subscribe(result => {
       this.information = result;
-      console.log('peli:' + this.information.Title);    
-    
+      console.log('peli:' + this.information.Title);   
 
-  
+    //GUARDAR HISTORIAL  
     this.db.collection('historial').doc(this.uid).collection('peliculas').doc(this.information.Title).set({
       latitud:this.lat,
       longitud: this.lon,

@@ -16,15 +16,11 @@ export class MoviesPage implements OnInit {
   type: SearchType=SearchType.all;
 
   
-
- 
-
   constructor(private movieService: MovieService, public authservice:AuthService, ) { 
     
   }
 
-  ngOnInit() {
-    
+  ngOnInit() {    
 
   }
 
