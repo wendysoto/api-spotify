@@ -46,6 +46,7 @@ npm install --save @ionic-native/geolocation
 ## Interfaces
 
 - Usuario
+
 La aplicación nos permitirá iniciar sesión, en el caso de contar con una cuenta previamente creada. Caso contrario deberemos crear una.
 Se podrá buscar (películas, series, episodios) por título, además de visualizar la información de las películas.
 
