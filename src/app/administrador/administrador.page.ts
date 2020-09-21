@@ -17,7 +17,8 @@ export class AdministradorPage implements OnInit {
   ngOnInit() {
     this.adminService.getUsurios().subscribe(res=>
       //console.log('Tareas', res);
-      this.usuarios=res);
+      this.usuarios=res
+    );
   }
 
 

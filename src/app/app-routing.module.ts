@@ -39,8 +39,16 @@ const routes: Routes = [
     path: 'crud/:id',
     loadChildren: './admin-crud/admin-crud.module#AdminCrudPageModule'
   },
-  { path: 'crud', loadChildren: './admin-crud/admin-crud.module#AdminCrudPageModule' }
+  { path: 'crud', loadChildren: './admin-crud/admin-crud.module#AdminCrudPageModule' },
 
+  {
+    path: 'historial/:id',
+    loadChildren: () => import('./historial/historial.module').then( m => m.HistorialPageModule)
+  },
+  {
+    path: 'historial',
+    loadChildren: () => import('./historial/historial.module').then( m => m.HistorialPageModule)
+  },
 
   
 ];

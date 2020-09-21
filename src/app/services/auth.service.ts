@@ -2,6 +2,7 @@ import { registerLocaleData } from '@angular/common';
 import { Injectable } from '@angular/core';
 import {AngularFireAuth} from "@angular/fire/auth";
 
+
 //importar firestore para guardar en la base
 import {AngularFirestore} from '@angular/fire/firestore';
 import { Router } from '@angular/router';
@@ -58,4 +59,10 @@ export class AuthService {
         this.router.navigate(['./login']);
       })
     }
+
+    //Obtener infomacion del usuario
+    getUserAuth(){
+      return(this.AFauth.authState)
+    }
+
 }

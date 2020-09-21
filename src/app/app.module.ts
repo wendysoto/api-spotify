@@ -16,6 +16,9 @@ import{firebaseConfig} from "../environments/environment";
 import {AngularFirestoreModule} from "@angular/fire/firestore";
 
 import { environment } from 'src/environments/environment';
+//geolocalizacion
+import { Geolocation } from '@ionic-native/geolocation/ngx';
+
 
 @NgModule({
   declarations: [AppComponent],
@@ -30,6 +33,8 @@ import { environment } from 'src/environments/environment';
   providers: [
     StatusBar,
     SplashScreen,
+    Geolocation,    
+
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }
   ],
   bootstrap: [AppComponent]

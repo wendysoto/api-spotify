@@ -8,13 +8,16 @@
       
         <ion-title>Películas</ion-title>
         <ion-buttons slot="end" (click)="Onlogout()"><ion-icon name="exit-outline"></ion-icon></ion-buttons> 
-   
+      
     
   </ion-toolbar>
 </ion-header>
  
 <ion-content class="background">
 
+  <!--<ion-label>{{id}}</ion-label>
+  <p>Latitud: {{lat}}</p>
+  <p>Longitud: {{lon}}</p>-->
   
   <ion-searchbar  [(ngModel)]="searchTerm" (ionChange)="searchChanged($event)"></ion-searchbar>
           

@@ -34,6 +34,7 @@ export class AdminCrudPage implements OnInit {
     const loading=await this.loadingController.create({
       message:'Loading.....'
     });
+
     await loading.present();
     this.adminService.getUser(this.uid).subscribe(res=>{
       loading.dismiss();
@@ -65,6 +66,7 @@ export class AdminCrudPage implements OnInit {
     }
 
   }
+  
   onRemove(idUser:string){
     console.log(idUser);
     this.adminService.removeUser(idUser);

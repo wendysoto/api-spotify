@@ -9,8 +9,11 @@ import { TaskI } from '../models/task.interface';
   providedIn: 'root'
 })
 export class AdminService {
+  
   private userCollection: AngularFirestoreCollection<TaskI>;
   private usuarios: Observable<TaskI[]>;
+
+
 
   constructor(db:AngularFirestore) { 
     this.userCollection = db.collection<TaskI>('users');

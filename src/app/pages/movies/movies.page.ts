@@ -3,6 +3,8 @@ import { Observable } from 'rxjs';
 import { MovieService, SearchType } from 'src/app/services/movie.service';
 import { AuthService } from 'src/app/services/auth.service';
 
+
+
 @Component({
   selector: 'app-movies',
   templateUrl: './movies.page.html',
@@ -13,10 +15,19 @@ export class MoviesPage implements OnInit {
   searchTerm:string="";
   type: SearchType=SearchType.all;
 
-  constructor(private movieService: MovieService, public authservice:AuthService) { }
+  
+
+ 
+
+  constructor(private movieService: MovieService, public authservice:AuthService, ) { 
+    
+  }
 
   ngOnInit() {
+    
+
   }
+
   searchChanged() {
     // Call our service function which returns an Observable
     this.results = this.movieService.searchData(this.searchTerm, this.type);
@@ -27,7 +38,9 @@ export class MoviesPage implements OnInit {
 
   Onlogout(){
     this.authservice.logout();
-
   }
+  
+
+  
 
 }
