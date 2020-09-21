@@ -1,8 +1,9 @@
-<<<<<<< HEAD
-# proyecto_finalTopicos
-## Integrantes:
-##### Andrea Quishpe
-##### Wendy Soto
+#  Movie App
+## Proyecto final de Tópicos Especiales
+INTEGRANTES DE GRUPO  :woman::woman:
+- Andrea Quishpe
+- Wendy Soto
+
 
 # README #
 
@@ -36,54 +37,9 @@ Permite ver la información de la pelicula
  <img src="https://github.com/AndreaLizeth/imagenesTE/blob/master/infoPeli.PNG" width="300"/> 
 </p> 
 
-Y finalmente la aplicación permite cerrar sesión.
-
-<p align="center"> 
- <img src="https://elvismpq.github.io/test/images/8.jpeg" width="300"/> 
-</p> 
-
-## Inicialización del Proyecto ##
-Ejecutaremos los siguientes comandos :
-
-En el caso de no tener instalado Ionic
->    npm install -g ionic
-
-Creamos un nuevo proyecto 
->    ionic start proyecto_finalTopicos blank --type=angular
-
-Generamos las páginas y el servicio
->ionic g page pages/login
->ionic g page pages/movies
->ionic g page pages/register
->ionic g page pages/movie-details
-
->ionic g service services/movie
-
-
-
-## Código ##
-
-* * *
-
-### Referencias ###
-    1. https://ionicacademy.com/ionic-4-app-api-calls/
-    2. https://www.youtube.com/watch?v=REgMMe2fYKA
-   
-=======
-
-#  Movie App
-## Proyecto final de Tópicos Especiales
-INTEGRANTES DE GRUPO  :woman::woman:
-- Andrea Quishpe
-- Wendy Soto
-
-
-```
-Desarrollo de una app en Ionic que permita buscar y revisar las reseñas de una determinada serie
-o película mediante el consumo de API.
-```
 
 ### Comandos
+Ejecutaremos los siguientes comandos :
 ```
 - Instalar ionic 
 npm install -g @ionic/cli
@@ -128,8 +84,10 @@ npm install --save @ionic-native/geolocation
 ## Video en Yotube :movie_camera:
 
 
-
-
-
-
 >>>>>>> 99ae103861e87f2b4122055d079b5aa7e8471d73
+
+
+### Referencias ###
+    1. https://ionicacademy.com/ionic-4-app-api-calls/
+    2. https://www.youtube.com/watch?v=REgMMe2fYKA
+   
