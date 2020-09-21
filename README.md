@@ -16,7 +16,7 @@ El repositorio contiene el proyecto **proyecto_finalTopicos
 ### Funcionalidades ###
 La aplicación permite iniciar sesión. 
  <p align="center"> 
- <img src="https://elvismpq.github.io/test/images/1.jpeg" width="300"/> 
+ <img src="https://github.com/AndreaLizeth/imagenesTE/blob/master/login.PNG" width="300"/> 
 </p> 
 
 Se pude realizar un registro de usuarios con un formulario, en el caso de no  tener creada una cuenta 
