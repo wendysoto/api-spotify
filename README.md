@@ -33,7 +33,14 @@ npm install --save @ionic-native/geolocation
 
 ## Funcionalidad del Proyecto :pencil2:
 
+- Base de datos
+
+| **Firebase Auth** :speech_balloon:| **Usuarios** :speech_balloon: | **Historial** :bust_in_silhouette: |
+| ------------- | ------------- | ------------- | 
+|![myimage-alt-tag](https://github.com/wendysoto/proyecto_finalTopicos/blob/master/images/firebase%20auth.JPG) |![myimage-alt-tag](https://github.com/wendysoto/proyecto_finalTopicos/blob/master/images/firebase_users.JPG) |![myimage-alt-tag](https://github.com/wendysoto/proyecto_finalTopicos/blob/master/images/firebase_historial.JPG)  |![myimage-alt-tag]|
+
 ## Interfaces
+
 - Usuario
 
 | **login** :speech_balloon: | **register** :bust_in_silhouette: | **movies** :clapper:|**movies details** :scroll:|
