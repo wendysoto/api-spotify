@@ -44,7 +44,7 @@ npm install --save @ionic-native/geolocation
 
 | **Users** :speech_balloon: | **Historial** :alarm_clock: |**Edit User** :black_nib:| **New User** :heavy_check_mark:|
 | ------------- | ------------- | ------------- |------------- |
-|![myimage-alt-tag](https://github.com/wendysoto/proyecto_finalTopicos/blob/master/images/users.JPG) |![myimage-alt-tag](https://github.com/wendysoto/proyecto_finalTopicos/blob/master/images/edit_user.JPG)  |![myimage-alt-tag](https://github.com/wendysoto/proyecto_finalTopicos/blob/master/images/historial.JPG)  |![myimage-alt-tag](https://github.com/wendysoto/proyecto_finalTopicos/blob/master/images/new_user.JPG)  |
+|![myimage-alt-tag](https://github.com/wendysoto/proyecto_finalTopicos/blob/master/images/users.JPG) |![myimage-alt-tag](https://github.com/wendysoto/proyecto_finalTopicos/blob/master/images/historial.JPG)  |![myimage-alt-tag](https://github.com/wendysoto/proyecto_finalTopicos/blob/master/images/edit_user.JPG)  |![myimage-alt-tag](https://github.com/wendysoto/proyecto_finalTopicos/blob/master/images/new_user.JPG)  |
 
 ## Video en Yotube :movie_camera:
 
