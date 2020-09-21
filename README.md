@@ -13,30 +13,6 @@ En este README contiene un explicativo del la aplicación de realizada en Ionic 
 ### Explicación ###
 El repositorio contiene el proyecto **proyecto_finalTopicos
 
-### Funcionalidades ###
-La aplicación permite iniciar sesión. 
- <p align="center"> 
- <img src="https://github.com/AndreaLizeth/imagenesTE/blob/master/login.PNG" width="300"/> 
-</p> 
-
-Se pude realizar un registro de usuarios con un formulario, en el caso de no  tener creada una cuenta 
-
-<p align="center"> 
- <img src="https://github.com/AndreaLizeth/imagenesTE/blob/master/registrate.PNG" width="300"/> 
-</p> 
-
-Al ingresar con las credenciales, nos permitirá buscar peliculas, series. Se podrá escoger la categoría mediante el uso del comboBox
-<p align="center"> 
- <img src="https://github.com/AndreaLizeth/imagenesTE/blob/master/busqueda.PNG" width="300"/> 
- <img src="https://github.com/AndreaLizeth/imagenesTE/blob/master/busqueda%201.PNG" width="300"/>
- <img src="https://github.com/AndreaLizeth/imagenesTE/blob/master/busqueda%202.PNG " width="300"/>
-</p> 
-
-Permite ver la información de la pelicula
-<p align="center"> 
- <img src="https://github.com/AndreaLizeth/imagenesTE/blob/master/infoPeli.PNG" width="300"/> 
-</p> 
-
 
 ### Comandos
 Ejecutaremos los siguientes comandos :
@@ -70,12 +46,17 @@ npm install --save @ionic-native/geolocation
 ## Interfaces
 
 - Usuario
+La aplicación nos permitirá iniciar sesión, en el caso de contar con una cuenta previamente creada. Caso contrario deberemos crear una.
+Se podrá buscar (películas, series, episodios) por título, además de visualizar la información de las películas.
+
 
 | **login** :speech_balloon: | **register** :bust_in_silhouette: | **movies** :clapper:|**movies details** :scroll:|
 | ------------- | ------------- | ------------- | ------------- |
 |![myimage-alt-tag](https://github.com/wendysoto/proyecto_finalTopicos/blob/master/images/login.JPG) |![myimage-alt-tag](https://github.com/wendysoto/proyecto_finalTopicos/blob/master/images/register.JPG)  |![myimage-alt-tag](https://github.com/wendysoto/proyecto_finalTopicos/blob/master/images/movies.JPG)  |![myimage-alt-tag](https://github.com/wendysoto/proyecto_finalTopicos/blob/master/images/movie_info.JPG) |
 
 - Administrador
+
+El administrador podrá ver el historial de usuarios, modificar y eliminar estos.
 
 | **Users** :speech_balloon: | **Historial** :alarm_clock: |**Edit User** :black_nib:| **New User** :heavy_check_mark:|
 | ------------- | ------------- | ------------- |------------- |
