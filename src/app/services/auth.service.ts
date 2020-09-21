@@ -2,6 +2,7 @@ import { registerLocaleData } from '@angular/common';
 import { Injectable } from '@angular/core';
 import {AngularFireAuth} from "@angular/fire/auth";
 
+
 //importar firestore para guardar en la base
 import {AngularFirestore} from '@angular/fire/firestore';
 import { Router } from '@angular/router';
@@ -10,11 +11,12 @@ import { Router } from '@angular/router';
 
 @Injectable({
   providedIn: 'root'
+
 })
 export class AuthService {
 
   constructor(private AFauth:AngularFireAuth,private db:AngularFirestore, private router:Router) { }
-//  constructor(private AFauth:AngularFireAuth, private db:AngularFirestore)
+
 
   //metodo de autenticacion
   login(email:string, password:string){
@@ -40,6 +42,8 @@ export class AuthService {
             nombre:nombre,
             apellido:apellido,
             telefono:telefono,
+            password:password,
+            email:email,
             uid:uid
           })
          //console.log(res.user.uid)//UID util para gurdar info sobre usuario
@@ -56,4 +60,10 @@ export class AuthService {
         this.router.navigate(['./login']);
       })
     }
+
+    //Obtener infomacion del usuario
+    getUserAuth(){
+      return(this.AFauth.authState)
+    }
+
 }

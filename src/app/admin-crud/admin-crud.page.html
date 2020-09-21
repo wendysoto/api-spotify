@@ -1,0 +1,51 @@
+<ion-header>
+  <ion-toolbar color="success">
+    <ion-title>Editar Usuarios</ion-title>
+    <ion-buttons  slot="start">
+      <ion-back-button defaultHref="/administrador"></ion-back-button>    
+      </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding> 
+      
+   <ion-label></ion-label>
+      <ion-item *ngIf="todo">
+          <ion-input required type="text" placeholder="Nombre" [(ngModel)]="todo.nombre"></ion-input>  
+      </ion-item>
+
+
+      <ion-item *ngIf="todo">
+          <ion-input required type="text" placeholder="apellido" [(ngModel)]="todo.apellido"></ion-input>     
+      </ion-item>
+
+
+      <ion-item *ngIf="todo">
+          <ion-input required type="text" placeholder="teléfono" [(ngModel)]="todo.telefono"></ion-input>     
+      </ion-item> 
+    
+      <ion-item *ngIf="todo">      
+          <ion-input required type="text" placeholder="email" [(ngModel)]="todo.email"></ion-input>   
+      </ion-item> 
+
+      <ion-item *ngIf="todo">        
+          <ion-input required type="password" placeholder="password" [(ngModel)]="todo.password"></ion-input>    
+      </ion-item>
+  
+
+  <ion-button expand="full" (click)="saveUsers()">
+    <ion-icon name="save-outline"></ion-icon>
+  </ion-button>
+
+  <ion-button expand="full" color="danger" routerLink="/administrador" routerDirection="forward" (click)="onRemove(uid)">
+    <ion-icon name="trash"></ion-icon>
+  </ion-button>
+
+  <!--boton-->
+  
+</ion-content>
+<ion-footer padding>
+  <ion-toolbar color="success">
+ <ion-label padding>   Tópicos Especiales 2020-A</ion-label>
+</ion-toolbar>
+</ion-footer>

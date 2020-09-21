@@ -1,0 +1,40 @@
+<ion-header>
+  <ion-toolbar color="success">
+    <ion-title>historial</ion-title>
+
+    <ion-buttons  slot="start">
+      <ion-back-button defaultHref="/administrador"></ion-back-button>    
+      </ion-buttons>  
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-item-sliding *ngFor="let historial of historiales">        
+        
+      <ion-card slot="start" color="medium"> 
+          <ion-avatar>
+            <img src="https://www.flaticon.es/svg/static/icons/svg/2433/2433474.svg" alt="cook">
+          </ion-avatar>    
+        <ion-card-header>
+          <label>Usuario</label>
+          <ion-card-subtitle>{{historial.email}}            
+          </ion-card-subtitle>
+          <label>Historial de pelicula</label>
+          <ion-card-title> <h3>{{ historial.namePeli}}</h3></ion-card-title>
+        </ion-card-header> 
+        <label>Ubicación</label>      
+        <ion-item>latitud: {{ historial.latitud}}</ion-item>
+        <ion-item>longitud: {{ historial.longitud}}</ion-item> 
+         
+      </ion-card>     
+  
+  </ion-item-sliding>
+
+</ion-content>
+
+<ion-footer padding>
+  <ion-toolbar color="success">
+ <ion-label padding>   Historial de Usuarios</ion-label>
+</ion-toolbar>
+</ion-footer>
