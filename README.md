@@ -125,4 +125,5 @@ Este código representa los métodos de Geolocalización, e Historial de pelícu
  	4. https://gradle.org/install/
  	5. https://ionicacademy.com/ionic-4-app-api-calls/
  	6. http://www.omdbapi.com/
+ 	7. https://www.youtube.com/watch?v=REgMMe2fYKA&list=LLKsVFdvcs9Om9xIPBpIfVKw&index=93
    
