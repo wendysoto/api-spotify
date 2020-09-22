@@ -5,11 +5,11 @@ INTEGRANTES DE GRUPO  :woman::woman:
 - Wendy Soto
 
 
-# README #
+## Descripción #
 
-En este README contiene un explicativo del la aplicación de realizada en Ionic acerca una aplicación con consumo de una API de películas.
+Desarrollo una app que me permita buscar y revisar las reseñas de una determinada serie o película, la aplicación se encuentra dealizada en Ionic v5 y angular CL:10.1.0
 
-## Acerca del proyecto ##
+
 ### Explicación ###
 El repositorio contiene el proyecto **proyecto_finalTopicos
 
@@ -17,7 +17,7 @@ El repositorio contiene el proyecto **proyecto_finalTopicos
 ### Comandos
 Ejecutaremos los siguientes comandos :
 ```
-- Instalar ionic 
+- Instalar ionic
 npm install -g @ionic/cli
 
 - Generar proyecto
@@ -52,9 +52,8 @@ npm install -g ionic cordova
 - Generar APK (Nota: previo a la generación de la APK, agregar los paths correspondientes a SDK, JDK y Gradle en las variables de entorno > Variables del Sistema > PATH)
 ionic cordova build --release android
 
-
-
 ```
+
 ## Credenciales 
 
 - Firebase
