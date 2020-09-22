@@ -29,6 +29,7 @@
     "cordova-android": "9.0.0",
     "firebase": "^7.20.0",
     "rxjs": "~6.5.5",
+    "sharp": "^0.26.1",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.3"
   },

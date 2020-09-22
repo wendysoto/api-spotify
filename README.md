@@ -38,6 +38,9 @@ ionic cordova plugin add cordova-plugin-geolocation
 npm install --save @ionic-native/geolocation
 
 - Generar Icono y SplashScreen
+npm install sharp --save
+npm uninstall -g cordova-res
+npm i -g cordova-res
 ionic cordova resources
 
 - Intalar Cordova
@@ -126,4 +129,4 @@ Este código representa los métodos de Geolocalización, e Historial de pelícu
  	5. https://ionicacademy.com/ionic-4-app-api-calls/
  	6. http://www.omdbapi.com/
  	7. https://www.youtube.com/watch?v=REgMMe2fYKA&list=LLKsVFdvcs9Om9xIPBpIfVKw&index=93
-   
+    8. https://www.youtube.com/watch?v=tN3yH07vgJo
