@@ -19,21 +19,45 @@ Ejecutaremos los siguientes comandos :
 ```
 - Instalar ionic 
 npm install -g @ionic/cli
+
 - Ejecutar Ionnic
 ionic serve
-ionic serve -l 
+ionic serve -l
+
 - Generar nueva página
 ionic generate page nombrePage 
-- Instalar Córdova geo
-ionic cordova plugin add cordova-plugin-geolocation
+
 - Crear el servicio
 ionic g service services/nombreservicio
+
+- Instalar Firebase
+npm install firebase @angular/fire --save
 
 - Cordova geolocalización
 ionic cordova plugin add cordova-plugin-geolocation
 npm install --save @ionic-native/geolocation
 
+- Generar Icono y SplashScreen
+ionic cordova resources
+
+- Intalar Cordova
+npm install -g ionic cordova
+
+- Generar APK (**Nota:** previo a la generación de la APK, agregar los paths correspondientes a SDK, JDK y Gradle en las variables de entorno > Variables del Sistema > PATH)
+ionic cordova build --release android
+
+
+
 ```
+## Credenciales 
+
+- Firebase
+![myimage-alt-tag](https://github.com/wendysoto/proyecto_finalTopicos/blob/master/images/FirebaseCredenciales.jpeg)
+
+- API
+	http://www.omdbapi.com/
+
+
 
 ## Funcionalidad del Proyecto :pencil2:
 
@@ -63,13 +87,40 @@ El administrador podrá ver el historial de usuarios, modificar y eliminar estos
 | ------------- | ------------- | ------------- |------------- |
 |![myimage-alt-tag](https://github.com/wendysoto/proyecto_finalTopicos/blob/master/images/users.JPG) |![myimage-alt-tag](https://github.com/wendysoto/proyecto_finalTopicos/blob/master/images/historial.JPG)  |![myimage-alt-tag](https://github.com/wendysoto/proyecto_finalTopicos/blob/master/images/edit_user.JPG)  |![myimage-alt-tag](https://github.com/wendysoto/proyecto_finalTopicos/blob/master/images/new_user.JPG)  |
 
+## Código:
+En la siguiente imagen se muestran las páginas creadas.
+![myimage-alt-tag](https://github.com/wendysoto/proyecto_finalTopicos/blob/master/images/paginas.JPG) 
+
+En el siguiente código se puede observar la conexión con la API
+![myimage-alt-tag](https://github.com/wendysoto/proyecto_finalTopicos/blob/master/images/servicio%20pelis.JPG)
+
+
+Esta imagen se puede apreciar la conexión con la Base de Datos.
+![myimage-alt-tag](https://github.com/wendysoto/proyecto_finalTopicos/blob/master/images/credenciales_fire.JPG)
+
+A continuación se describen los métodos de Autenticación, Registro y Cierre de Sesión.
+![myimage-alt-tag](https://github.com/wendysoto/proyecto_finalTopicos/blob/master/images/firebase%20auth.JPG)
+
+
+Esta fracción de código representa el método de búsqueda de películas.
+![myimage-alt-tag](https://github.com/wendysoto/proyecto_finalTopicos/blob/master/images/movie_page.JPG)
+
+
+
+
+Este código representa los métodos de Geolocalización, e Historial de películas buscadas por usuario. Para este método es necesario el Id del usuario ya que de esta forma se podrá guardar su historial de búsquedas.
+![myimage-alt-tag](https://github.com/wendysoto/proyecto_finalTopicos/blob/master/images/movie_details.JPG)
+
+
 ## Video en Yotube :movie_camera:
-
-
->>>>>>> 99ae103861e87f2b4122055d079b5aa7e8471d73
+ 
 
 
 ### Referencias ###
     1. https://ionicacademy.com/ionic-4-app-api-calls/
     2. https://www.youtube.com/watch?v=REgMMe2fYKA
+    3. https://www.nigmacode.com/ionic/Exportar-y-firmar-APK-en-Ionic
+ 	4. https://gradle.org/install/
+ 	5. https://ionicacademy.com/ionic-4-app-api-calls/
+ 	6. http://www.omdbapi.com/
    
