@@ -127,6 +127,7 @@ Este código representa los métodos de Geolocalización, e Historial de pelícu
 
 ## Video en Yotube :movie_camera:
  
+ [![ScreenShot](https://github.com/wendysoto/proyecto_finalTopicos/blob/master/images/movie_page.JPG)](https://youtu.be/XIPEvncjB04)
 
 
 ### Referencias ###
