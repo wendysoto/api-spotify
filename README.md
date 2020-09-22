@@ -125,9 +125,10 @@ Este código representa los métodos de Geolocalización, e Historial de pelícu
 ![myimage-alt-tag](https://github.com/wendysoto/proyecto_finalTopicos/blob/master/images/movie_details.JPG)
 
 
+
 ## Video en Yotube :movie_camera:
  
- [![ScreenShot](https://github.com/wendysoto/proyecto_finalTopicos/blob/master/images/movie_page.JPG)](https://youtu.be/XIPEvncjB04)
+ [![ScreenShot](https://github.com/wendysoto/proyecto_finalTopicos/blob/master/images/video.PNG)](https://youtu.be/XIPEvncjB04)
 
 
 ### Referencias ###
