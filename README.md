@@ -7,7 +7,7 @@ INTEGRANTES DE GRUPO  :woman::woman:
 
 ## Descripción #
 
-Desarrollo una app que me permita buscar y revisar las reseñas de una determinada serie o película, la aplicación se encuentra dealizada en Ionic v5 y angular CL:10.1.0
+Desarrollo una app que me permita buscar y revisar las reseñas de una determinada serie o película, la aplicación se encuentra dealizada en Ionic v5 y angular CLI:10.1.0
 
 
 ### Explicación ###
