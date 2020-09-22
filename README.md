@@ -43,7 +43,7 @@ ionic cordova resources
 - Intalar Cordova
 npm install -g ionic cordova
 
-- Generar APK (**Nota:** previo a la generación de la APK, agregar los paths correspondientes a SDK, JDK y Gradle en las variables de entorno > Variables del Sistema > PATH)
+- Generar APK (Nota: previo a la generación de la APK, agregar los paths correspondientes a SDK, JDK y Gradle en las variables de entorno > Variables del Sistema > PATH)
 ionic cordova build --release android
 
 
