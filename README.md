@@ -73,6 +73,11 @@ http://www.omdbapi.com/
 | **Firebase Auth** :speech_balloon:| **Usuarios** :speech_balloon: | **Historial** :bust_in_silhouette: |
 | ------------- | ------------- | ------------- | 
 |![myimage-alt-tag](https://github.com/wendysoto/proyecto_finalTopicos/blob/master/images/firebase%20auth.JPG) |![myimage-alt-tag](https://github.com/wendysoto/proyecto_finalTopicos/blob/master/images/firebase_users.JPG) |![myimage-alt-tag](https://github.com/wendysoto/proyecto_finalTopicos/blob/master/images/firebase_historial.JPG)  |![myimage-alt-tag]|
+## Icon y SplashScreen
+| **Icon** :speech_balloon: | **SplashScreen** :bust_in_silhouette: | 
+| ------------- | ------------- | 
+|![myimage-alt-tag](https://github.com/wendysoto/proyecto_finalTopicos/blob/master/images/Icono.PNG) |![myimage-alt-tag](https://github.com/wendysoto/proyecto_finalTopicos/blob/master/images/SplashScreen.PNG)|
+
 
 ## Interfaces
 
@@ -97,6 +102,7 @@ El administrador podrá ver el historial de usuarios, modificar y eliminar estos
 ## Código:
 
 En la siguiente imagen se muestran las páginas creadas.
+
 ![myimage-alt-tag](https://github.com/wendysoto/proyecto_finalTopicos/blob/master/images/paginas.JPG) 
 
 En el siguiente código se puede observar la conexión con la API
@@ -125,6 +131,7 @@ Este código representa los métodos de Geolocalización, e Historial de pelícu
 
 
 ### Referencias ###
+
     1. https://ionicacademy.com/ionic-4-app-api-calls/
     2. https://www.youtube.com/watch?v=REgMMe2fYKA
     3. https://www.nigmacode.com/ionic/Exportar-y-firmar-APK-en-Ionic
