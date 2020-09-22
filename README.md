@@ -55,7 +55,8 @@ ionic cordova build --release android
 ![myimage-alt-tag](https://github.com/wendysoto/proyecto_finalTopicos/blob/master/images/FirebaseCredenciales.jpeg)
 
 - API
-	http://www.omdbapi.com/
+
+http://www.omdbapi.com/
 
 
 
@@ -88,6 +89,7 @@ El administrador podrá ver el historial de usuarios, modificar y eliminar estos
 |![myimage-alt-tag](https://github.com/wendysoto/proyecto_finalTopicos/blob/master/images/users.JPG) |![myimage-alt-tag](https://github.com/wendysoto/proyecto_finalTopicos/blob/master/images/historial.JPG)  |![myimage-alt-tag](https://github.com/wendysoto/proyecto_finalTopicos/blob/master/images/edit_user.JPG)  |![myimage-alt-tag](https://github.com/wendysoto/proyecto_finalTopicos/blob/master/images/new_user.JPG)  |
 
 ## Código:
+
 En la siguiente imagen se muestran las páginas creadas.
 ![myimage-alt-tag](https://github.com/wendysoto/proyecto_finalTopicos/blob/master/images/paginas.JPG) 
 
