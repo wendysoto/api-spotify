@@ -20,6 +20,9 @@ Ejecutaremos los siguientes comandos :
 - Instalar ionic 
 npm install -g @ionic/cli
 
+- Generar proyecto
+ionic start nombreApp blank
+
 - Ejecutar Ionnic
 ionic serve
 ionic serve -l
@@ -37,13 +40,13 @@ npm install firebase @angular/fire --save
 ionic cordova plugin add cordova-plugin-geolocation
 npm install --save @ionic-native/geolocation
 
-- Generar Icono y SplashScreen
+- Generar Icono y SplashScreen (Nota: Tomar en cuenta las dimensiones de las imágenes, estas deben ser mínimo: 1024×1024px y splash min: 2732×2732px)
 npm install sharp --save
 npm uninstall -g cordova-res
 npm i -g cordova-res
 ionic cordova resources
 
-- Intalar Cordova
+- Instalar Cordova
 npm install -g ionic cordova
 
 - Generar APK (Nota: previo a la generación de la APK, agregar los paths correspondientes a SDK, JDK y Gradle en las variables de entorno > Variables del Sistema > PATH)
