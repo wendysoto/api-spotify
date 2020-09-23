@@ -141,3 +141,4 @@ Este código representa los métodos de Geolocalización, e Historial de pelícu
  	6. http://www.omdbapi.com/
  	7. https://www.youtube.com/watch?v=REgMMe2fYKA&list=LLKsVFdvcs9Om9xIPBpIfVKw&index=93
     8. https://www.youtube.com/watch?v=tN3yH07vgJo
+    9. https://www.nigmacode.com/ionic/Geolocalizacion-con-Ionic
